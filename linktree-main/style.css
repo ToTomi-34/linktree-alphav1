@@ -1,0 +1,119 @@
+body {
+    background: url(.//Backgrounds/pppixelate.svg);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile {
+    display: flex;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+    margin: 7vh;
+    border-radius: 2vh;
+    padding-bottom: 2.5vh;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    height: auto;   
+}
+#profile img {
+    margin-top: 10px;
+    border-radius: 50%;
+}
+#profile #insta {
+    background: linear-gradient(to right, #d100ff, #ff12ba, #f9537b, #f28b71, #e3e60a, #f8f50c);
+    margin-top: 2vh;
+    border: none;
+    border-radius: 50vh;
+    width: 70vw;
+    height: 8vh;
+    color: white;
+    font-size: 4.5vw;
+    max-width: 650px;
+}
+#profile #Dis {
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 40px;
+    border: none;
+    width: 70vw;
+    height: 8vh;
+    background-color: #E02DF7;
+    color: white;
+    font-size: clamp(2rem, 4vh, 300px);
+    max-width: 650px;
+}
+#profile #Face {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    border: none;
+    width: 70vw;
+    height: 8vh;
+    background-color: #1C82FF;
+    color: white;
+    font-size: 2.72vw;
+    max-width: 650px;
+}
+
+#Worked #worked {
+    width: 35vh;
+    height: auto;
+    margin: 3.5vh;
+    border-style: solid;
+    border: 15px;
+    border-color: green;
+    border-radius: 25px;
+}
+#Worked #worked1 {
+    width: 35vh;
+    height: auto;
+    margin: 3.5vh;
+    border-style: solid;
+    border: 15px;
+    border-color: green;
+    border-radius: 25px;
+}
+#Footer {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2vh;
+    align-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: gray;
+    width: 100%;
+    height: 10vh;
+}
+
+@media(max-width: 750px) {
+
+body {
+        align-items: center;
+        overflow-x: hidden;
+}
+#profile {
+    margin: 0%;
+    padding: 3vh;
+    width: 45vh;
+     height: 60vh;
+}
+
+#profile img {
+    width: 15vh;
+    height: auto
+}
+
+#Worked {
+    display: flex;
+    flex-direction: column;
+}
+#Worked #worked {
+    width: 40vh;
+    height: auto;
+}
+
+}
